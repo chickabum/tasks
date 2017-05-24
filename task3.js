@@ -6,9 +6,9 @@ function mark(points) {
         console.log("ocena niedostateczna");
     } else if (points < 55) {
         console.log("ocena dopuszczająca")
-    } else if (points < 85) {
+    } else if (points < 70) {
         console.log("ocena dostateczn")
-    } else if (points < 55) {
+    } else if (points < 85) {
         console.log("ocena dobra")
     } else {
         console.log("ocena bardzo dobra")
